@@ -1,35 +1,35 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="Manager.Auth.Controllers.AuthController" Collapsed="true">
-    <Position X="9.5" Y="0.5" Width="1.5" />
+    <Position X="9.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAQAAAAAAAAAgAAABAAAAAAAQAAAAAAA=</HashCode>
       <FileName>Controllers\AuthController.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Manager.Auth.Entities.User" Collapsed="true">
-    <Position X="11.25" Y="1.5" Width="1.5" />
+    <Position X="11.5" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAEAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
       <FileName>Entities\User.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Manager.Auth.Entities.Role" Collapsed="true">
-    <Position X="9.5" Y="1.5" Width="1.5" />
+    <Position X="9.75" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Entities\Role.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Manager.Auth.Persistence.ApplicationDbContext" Collapsed="true">
-    <Position X="7.75" Y="0.5" Width="1.5" />
+    <Position X="8" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Persistence\ApplicationDbContext.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Manager.Auth.Services.AuthService" Collapsed="true" BaseTypeListCollapsed="true">
-    <Position X="11.25" Y="0.5" Width="1.5" />
+    <Position X="11.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>ACAABAAAAAAAAAAAAAAAAAAAAAABAAAAAAAQAAAAAAA=</HashCode>
       <FileName>Services\AuthService.cs</FileName>
@@ -37,7 +37,7 @@
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
   <Class Name="Manager.Auth.Services.JwtFactory" Collapsed="true" BaseTypeListCollapsed="true">
-    <Position X="7.75" Y="1.5" Width="1.5" />
+    <Position X="8" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Services\JwtFactory.cs</FileName>
@@ -45,21 +45,21 @@
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
   <Struct Name="Manager.Auth.Models.ErrorModel" Collapsed="true">
-    <Position X="7.75" Y="2.75" Width="1.5" />
+    <Position X="8" Y="2.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Models\ErrorModel.cs</FileName>
     </TypeIdentifier>
   </Struct>
-  <Interface Name="Manager.Auth.Services.IAuthService">
-    <Position X="7.75" Y="4" Width="1.5" />
+  <Interface Name="Manager.Auth.Services.IAuthService" Collapsed="true">
+    <Position X="8" Y="4" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAQAAAAAAA=</HashCode>
       <FileName>Services\IAuthService.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Interface Name="Manager.Auth.Services.IJwtFactory">
-    <Position X="9.5" Y="4" Width="1.5" />
+  <Interface Name="Manager.Auth.Services.IJwtFactory" Collapsed="true">
+    <Position X="9.75" Y="4" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Services\IJwtFactory.cs</FileName>
