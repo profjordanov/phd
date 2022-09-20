@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>212ed2a3-6240-4427-ad08-9d468ba60832</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.17.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Business\CommandHandlers\" />
+    <Folder Include="Business\QueryHandlers\" />
+    <Folder Include="Controllers\" />
+    <Folder Include="Core\Commands\" />
+    <Folder Include="Core\Queries\" />
+    <Folder Include="Domain\Models\" />
+    <Folder Include="Domain\Views\" />
+    <Folder Include="Domain\Repositories\" />
+  </ItemGroup>
+
+</Project>
