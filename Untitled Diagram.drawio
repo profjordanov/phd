@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-02T14:24:56.540Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="chpg7DbNVHgnzOC_K4wv" version="20.3.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-02T14:27:47.455Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="Vpdy_zhve5hSLh799aP7" version="20.3.6" type="github">
   <diagram name="Page-1" id="b5b7bab2-c9e2-2cf4-8b2a-24fd1a2a6d21">
     <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -16,7 +16,7 @@
         <mxCell id="fPdkNQdoLEXpVAgpaV0J-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="fPdkNQdoLEXpVAgpaV0J-10" target="fPdkNQdoLEXpVAgpaV0J-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fPdkNQdoLEXpVAgpaV0J-10" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+        <mxCell id="fPdkNQdoLEXpVAgpaV0J-10" value="Клиент" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="370" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fPdkNQdoLEXpVAgpaV0J-12" value="Преглед на списък с поръчки" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -60,7 +60,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="fPdkNQdoLEXpVAgpaV0J-35" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontSize=10;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="fPdkNQdoLEXpVAgpaV0J-35" value="Доставчик" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontSize=10;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="910" y="370" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fPdkNQdoLEXpVAgpaV0J-37" value="&lt;span style=&quot;font-weight: 700; text-align: center;&quot;&gt;Подсистема за доставки&lt;/span&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;width=120;height=30;boundedLbl=1;verticalAlign=middle;align=left;spacingLeft=5;fontSize=10;fillColor=none;" vertex="1" parent="1">
