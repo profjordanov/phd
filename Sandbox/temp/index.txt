@@ -7,3 +7,5 @@ The impact on economics and business is huge.
 
 _________________________________________________________
 
+I met AI back in 2017 when I was introduced to cloud services and their cool products.
+I implemented a chatbot that helps me with students' preparation during our university exercises.
