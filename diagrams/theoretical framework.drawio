@@ -1,14 +1,32 @@
-<mxfile host="app.diagrams.net" modified="2023-10-19T10:56:02.279Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="m02Hw7tAmJOS3KAWLniI" version="22.0.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-19T11:31:39.535Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="NnIoCOEeQhsybabKYzid" version="22.0.5" type="github">
   <diagram name="Page-1" id="jhwDJUy9_16bghSyqaBN">
     <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="xKYYk5PtYXINbMjCG61--8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="120" width="330" height="260" as="geometry" />
+        </mxCell>
         <mxCell id="xKYYk5PtYXINbMjCG61--1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="130" width="240" height="100" as="geometry" />
+          <mxGeometry x="80" y="130" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xKYYk5PtYXINbMjCG61--2" value="&lt;b&gt;Domain&lt;br/&gt;Driven Design&amp;nbsp;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="50" y="130" width="220" height="30" as="geometry" />
+          <mxGeometry x="55" y="130" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xKYYk5PtYXINbMjCG61--5" value="Bounded Context, Ubiquitous Language, Entities, Value Objects, Aggregates" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="75" y="140" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xKYYk5PtYXINbMjCG61--6" value="&lt;b&gt;Command Query Responsibility Segregation&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="220" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xKYYk5PtYXINbMjCG61--7" value="&lt;b&gt;Event sourcing&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="300" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xKYYk5PtYXINbMjCG61--9" value="&lt;b&gt;Test Driven Development&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="240" y="215" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xKYYk5PtYXINbMjCG61--10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="390" width="330" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
