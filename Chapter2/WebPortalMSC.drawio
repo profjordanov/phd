@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-24T09:23:06.295Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="I80nLOGEuJyUdpCV-26i" version="23.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-24T09:31:14.761Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="f5ZKRve2jQhdOtEqbShx" version="23.0.0" type="github">
   <diagram name="Page-1" id="e-SgXyNyrdCk_4SolZh0">
     <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -25,17 +25,50 @@
         <mxCell id="WcTj5PZf8Xw0mGx6nHuc-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="250.5" y="360" width="490" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WcTj5PZf8Xw0mGx6nHuc-14" value="Доставчик: А" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="WcTj5PZf8Xw0mGx6nHuc-14" value="Доставчик: Б" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="90.5" y="450" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="WcTj5PZf8Xw0mGx6nHuc-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="250.5" y="440" width="490" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WcTj5PZf8Xw0mGx6nHuc-16" value="Доставчик: А" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="WcTj5PZf8Xw0mGx6nHuc-16" value="Доставчик: В" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="89.5" y="535" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="WcTj5PZf8Xw0mGx6nHuc-17" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="249.5" y="525" width="490" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WcTj5PZf8Xw0mGx6nHuc-19" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;Диспечер Уеб Портал&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="209.5" y="140" width="470" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WcTj5PZf8Xw0mGx6nHuc-20" value="Нова поръчка" style="labelPosition=center;verticalLabelPosition=middle;align=center;html=1;shape=mxgraph.basic.shaded_button;dx=10;fillColor=#E6E6E6;strokeColor=none;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="262.38" y="210" width="100.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WcTj5PZf8Xw0mGx6nHuc-21" value="Промяна" style="labelPosition=center;verticalLabelPosition=middle;align=center;html=1;shape=mxgraph.basic.shaded_button;dx=10;fillColor=#E6E6E6;strokeColor=none;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="393.13" y="210" width="100.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WcTj5PZf8Xw0mGx6nHuc-22" value="Уведомление" style="labelPosition=center;verticalLabelPosition=middle;align=center;html=1;shape=mxgraph.basic.shaded_button;dx=10;fillColor=#E6E6E6;strokeColor=none;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="526.13" y="210" width="100.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WcTj5PZf8Xw0mGx6nHuc-24" value="Поръчка № 102349" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="273.13" y="370" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WcTj5PZf8Xw0mGx6nHuc-25" value="Поръчка № 302379" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="450" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WcTj5PZf8Xw0mGx6nHuc-26" value="Поръчка № 242309" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="535" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WcTj5PZf8Xw0mGx6nHuc-27" value="Поръчка № 402349" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="370" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WcTj5PZf8Xw0mGx6nHuc-28" value="Поръчка № 669487" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="535" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WcTj5PZf8Xw0mGx6nHuc-32" value="Поръчка № 562300" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="516.38" y="450" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WcTj5PZf8Xw0mGx6nHuc-33" value="Поръчка № 700088" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="619.5" y="370" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
