@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-24T08:35:30.466Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="AeajO8Q27f7-WyP9mvrE" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-24T08:46:46.172Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="mIs-L6gWy1T8h0iNcQl-" version="22.1.21" type="github">
   <diagram name="Page-1" id="IbOXPeQhabHuqDcnQVFG">
     <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,7 +16,7 @@
         <mxCell id="BwMOvh1z618KWl9M8daT-4" value="Доставка №38310987" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="355" y="230" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="BwMOvh1z618KWl9M8daT-5" value="Дата и час на очаквана доставка:&lt;br&gt;24-01-2025г. 09:30:ч." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="BwMOvh1z618KWl9M8daT-5" value="Дата/час на очаквана доставка:&lt;br&gt;24-01-2025г. 09:30:ч." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="390" width="190" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BwMOvh1z618KWl9M8daT-6" value="Адрес:&lt;br&gt;град.&amp;nbsp;Lorem ipsum&amp;nbsp;&lt;br&gt;ул.&amp;nbsp;Sed ut perspiciatis № 22" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -25,17 +25,17 @@
         <mxCell id="BwMOvh1z618KWl9M8daT-8" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="415" y="540" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="BwMOvh1z618KWl9M8daT-16" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;flipH=1;notch=0;direction=west;" vertex="1" parent="1">
-          <mxGeometry x="470" y="460" width="60" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="BwMOvh1z618KWl9M8daT-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="445" y="445" width="70" height="50" as="geometry" />
+          <mxGeometry x="460" y="455" width="70" height="50" as="geometry" />
         </mxCell>
         <mxCell id="BwMOvh1z618KWl9M8daT-22" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="455" width="70" height="50" as="geometry" />
         </mxCell>
         <mxCell id="BwMOvh1z618KWl9M8daT-23" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;flipH=1;notch=0;" vertex="1" parent="1">
-          <mxGeometry x="345" y="450" width="60" height="40" as="geometry" />
+          <mxGeometry x="354" y="460" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BwMOvh1z618KWl9M8daT-24" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;flipH=1;notch=0;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="465" y="460" width="60" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
