@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-02T05:38:55.448Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="49i8-u7o1d4f4ITEjK4V" version="23.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-02T05:40:22.145Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="4Lgreg4ZsfMu7YNQOFaW" version="23.1.0" type="github">
   <diagram name="Page-1" id="_-T-Ew92CXRtChjD3JXS">
     <mxGraphModel dx="1816" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -81,6 +81,9 @@
               <mxPoint x="-90" y="212" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="W12ZFMfSlasCwoNZM_I0-19" value="Концептуален модел&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="160" width="150" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
