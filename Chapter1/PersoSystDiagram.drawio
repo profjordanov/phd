@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2024-05-05T05:38:39.379Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="5NQ7Y7jMv36z9yLavRNZ" version="24.2.5" type="device">
+<mxfile host="Electron" modified="2024-05-05T06:07:43.235Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="lrQeTsh0O7kuXzdoDFfl" version="24.2.5" type="device">
   <diagram name="Page-1" id="L01EU8n9rTYEzTThLHwA">
-    <mxGraphModel dx="2131" dy="767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2261" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -180,7 +180,7 @@
         <mxCell id="kzDdsvkXLwePxhlFPdGf-8" value="Актуализации и отчети" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="370" y="220" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9BbnkMQ9vGuWWJDVadSz-1" value="&lt;h1&gt;Система за управление на веригата от доставки&lt;/h1&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="9BbnkMQ9vGuWWJDVadSz-1" value="&lt;h1&gt;Система за управление на веригата на доставки&lt;/h1&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="50" y="90" width="620" height="30" as="geometry" />
         </mxCell>
       </root>
