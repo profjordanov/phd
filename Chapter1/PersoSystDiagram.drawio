@@ -1,11 +1,11 @@
-<mxfile host="Electron" modified="2024-05-02T12:16:34.921Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="qlcsxNf1MkzL1QvQ2Q1i" version="24.2.5" type="device">
+<mxfile host="Electron" modified="2024-05-05T05:38:39.379Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="5NQ7Y7jMv36z9yLavRNZ" version="24.2.5" type="device">
   <diagram name="Page-1" id="L01EU8n9rTYEzTThLHwA">
-    <mxGraphModel dx="2261" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2131" dy="767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="gHKsFk3kaTmPDn9_nSun-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-140" y="140" width="1010" height="530" as="geometry" />
+          <mxGeometry x="-140" y="80" width="1010" height="590" as="geometry" />
         </mxCell>
         <mxCell id="Yj5XSQhSytLeQ08hb08i-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="gHKsFk3kaTmPDn9_nSun-2" target="gHKsFk3kaTmPDn9_nSun-9" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -45,19 +45,19 @@
         <mxCell id="gHKsFk3kaTmPDn9_nSun-2" value="Облачна информационна &lt;br&gt;система&lt;br&gt;за управление на поръчки" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="330" width="230" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="gHKsFk3kaTmPDn9_nSun-3" value="Система за управление на околната среда" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="gHKsFk3kaTmPDn9_nSun-3" value="Подсистема&amp;nbsp;за управление на околната среда" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="150" y="580" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gHKsFk3kaTmPDn9_nSun-4" value="Система за управление на транспорта" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="gHKsFk3kaTmPDn9_nSun-4" value="Подсистема&amp;nbsp;за управление на транспорта" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="480" y="590" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gHKsFk3kaTmPDn9_nSun-5" value="Системата за управление на взаимоотношенията с клиентите" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="gHKsFk3kaTmPDn9_nSun-5" value="Подсистема&amp;nbsp;за управление на взаимоотношенията с клиентите" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="730" y="430" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gHKsFk3kaTmPDn9_nSun-7" value="Система за управление на складa" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="gHKsFk3kaTmPDn9_nSun-7" value="Подсистема&amp;nbsp;за управление на складa" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-10" y="495" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gHKsFk3kaTmPDn9_nSun-8" value="Системa за изпълнение на производството" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="gHKsFk3kaTmPDn9_nSun-8" value="Подсистема&amp;nbsp;за изпълнение на производството" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry y="245" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Yj5XSQhSytLeQ08hb08i-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="gHKsFk3kaTmPDn9_nSun-9" target="gHKsFk3kaTmPDn9_nSun-2" edge="1">
@@ -68,13 +68,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="gHKsFk3kaTmPDn9_nSun-9" value="Система за планиране на ресурсите" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="gHKsFk3kaTmPDn9_nSun-9" value="Подсистема за планиране на ресурсите" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="305" y="155" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gHKsFk3kaTmPDn9_nSun-10" value="Система за управление на качеството" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="gHKsFk3kaTmPDn9_nSun-10" value="Подсистема&amp;nbsp;за управление на качеството" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="580" y="260" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gHKsFk3kaTmPDn9_nSun-11" value="Система за бизнес анализ" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="gHKsFk3kaTmPDn9_nSun-11" value="Подсистема&amp;nbsp;за бизнес анализ" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-120" y="370" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Yj5XSQhSytLeQ08hb08i-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="gHKsFk3kaTmPDn9_nSun-10" edge="1">
@@ -161,24 +161,27 @@
         <mxCell id="lP3b31KA90Bl1iLN5qcU-1" value="Отчети и анализи за клиентското поведение, история на фактуриране и плащания" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="580" y="445" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kzDdsvkXLwePxhlFPdGf-1" value="Планирани маршрути и графици на доставки" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="kzDdsvkXLwePxhlFPdGf-1" value="Планирани маршрути и графици на доставки" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="339" y="540" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kzDdsvkXLwePxhlFPdGf-2" value="Статус на доставки, документация и подробности за използваните транспортни средства" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="kzDdsvkXLwePxhlFPdGf-2" value="Статус на доставки, документация и подробности за използваните транспортни средства" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="530" y="540" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kzDdsvkXLwePxhlFPdGf-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.96;entryY=0.7;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gHKsFk3kaTmPDn9_nSun-4" target="gHKsFk3kaTmPDn9_nSun-2">
+        <mxCell id="kzDdsvkXLwePxhlFPdGf-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.96;entryY=0.7;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="gHKsFk3kaTmPDn9_nSun-4" target="gHKsFk3kaTmPDn9_nSun-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="540" y="449" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="kzDdsvkXLwePxhlFPdGf-6" value="Мастър данни за поръчки, доставки, фактури" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="kzDdsvkXLwePxhlFPdGf-6" value="Мастър данни за поръчки, доставки, фактури" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="285" y="270" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kzDdsvkXLwePxhlFPdGf-8" value="Актуализации и отчети" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="kzDdsvkXLwePxhlFPdGf-8" value="Актуализации и отчети" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="370" y="220" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9BbnkMQ9vGuWWJDVadSz-1" value="&lt;h1&gt;Система за управление на веригата от доставки&lt;/h1&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="90" width="620" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
