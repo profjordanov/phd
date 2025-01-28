@@ -188,13 +188,13 @@
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="S2_QrUzKiXi8o2pbdPD4-124" value="+ Управление на бизнес &#xa;логиката по назначаване (параметри)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="S2_QrUzKiXi8o2pbdPD4-123" vertex="1">
+        <mxCell id="S2_QrUzKiXi8o2pbdPD4-124" value="+ Управление на бизнес &#xa;логика по назначаване (параметри)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="S2_QrUzKiXi8o2pbdPD4-123" vertex="1">
           <mxGeometry y="50" width="220" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="S2_QrUzKiXi8o2pbdPD4-125" value="+ Управление на бизнес логиката&#xa;по актуализиране (параметри) " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="S2_QrUzKiXi8o2pbdPD4-123" vertex="1">
+        <mxCell id="S2_QrUzKiXi8o2pbdPD4-125" value="+ Управление на бизнес логика&#xa;по актуализиране (параметри) " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="S2_QrUzKiXi8o2pbdPD4-123" vertex="1">
           <mxGeometry y="90" width="220" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="S2_QrUzKiXi8o2pbdPD4-126" value="+ Управление на бизнес &#xa;логиката по извличане &#xa;на данни (параметри)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="S2_QrUzKiXi8o2pbdPD4-123" vertex="1">
+        <mxCell id="S2_QrUzKiXi8o2pbdPD4-126" value="+ Управление на бизнес &#xa;логика по извличане &#xa;на данни (параметри)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="S2_QrUzKiXi8o2pbdPD4-123" vertex="1">
           <mxGeometry y="130" width="220" height="50" as="geometry" />
         </mxCell>
         <mxCell id="S2_QrUzKiXi8o2pbdPD4-127" value="Заявка за извличане&#xa;на данни за поръчки" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
