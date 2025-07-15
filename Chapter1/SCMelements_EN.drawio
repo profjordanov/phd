@@ -1,0 +1,149 @@
+<mxfile host="Electron" modified="2024-04-21T05:30:02.779Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="MfWX1FJt5Rl7PXGIwQNE" version="24.2.5" type="device">
+  <diagram name="Page-1" id="RFG91nqQHrq2rCqh5LNW">
+    <mxGraphModel dx="869" dy="512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hU0FTpct08kERLUiqEbZ-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="150" width="730" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="hU0FTpct08kERLUiqEbZ-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hU0FTpct08kERLUiqEbZ-3" target="hU0FTpct08kERLUiqEbZ-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HoA-zwtDn_BUg8EGvlk8-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hU0FTpct08kERLUiqEbZ-3" target="hU0FTpct08kERLUiqEbZ-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="300" />
+              <mxPoint x="140" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hU0FTpct08kERLUiqEbZ-3" value="Стратегия на веригата за доставки " style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="90" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hU0FTpct08kERLUiqEbZ-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hU0FTpct08kERLUiqEbZ-4" target="hU0FTpct08kERLUiqEbZ-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HoA-zwtDn_BUg8EGvlk8-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.212;entryY=0.022;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hU0FTpct08kERLUiqEbZ-4" target="hU0FTpct08kERLUiqEbZ-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="379" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hU0FTpct08kERLUiqEbZ-4" value="Планиране на веригата за доставки " style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="354" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HoA-zwtDn_BUg8EGvlk8-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="hU0FTpct08kERLUiqEbZ-6" target="hU0FTpct08kERLUiqEbZ-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hU0FTpct08kERLUiqEbZ-6" value="Операции във веригата за доставки " style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="610" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hU0FTpct08kERLUiqEbZ-8" value="Логистиката" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="600" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HoA-zwtDn_BUg8EGvlk8-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hU0FTpct08kERLUiqEbZ-9" target="hU0FTpct08kERLUiqEbZ-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HoA-zwtDn_BUg8EGvlk8-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hU0FTpct08kERLUiqEbZ-9" target="hU0FTpct08kERLUiqEbZ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hU0FTpct08kERLUiqEbZ-9" value="Управление на жизнения цикъл " style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="354" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HoA-zwtDn_BUg8EGvlk8-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="hU0FTpct08kERLUiqEbZ-10" target="hU0FTpct08kERLUiqEbZ-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="510" />
+              <mxPoint x="240" y="385" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HoA-zwtDn_BUg8EGvlk8-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hU0FTpct08kERLUiqEbZ-10" target="hU0FTpct08kERLUiqEbZ-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hU0FTpct08kERLUiqEbZ-10" value="Снабдяване" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HoA-zwtDn_BUg8EGvlk8-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.667;entryY=1.002;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hU0FTpct08kERLUiqEbZ-17" target="hU0FTpct08kERLUiqEbZ-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="434" y="310" />
+              <mxPoint x="434" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HoA-zwtDn_BUg8EGvlk8-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hU0FTpct08kERLUiqEbZ-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hU0FTpct08kERLUiqEbZ-17" value="Корпоративни системи за планиране на ресурси " style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="354" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HoA-zwtDn_BUg8EGvlk8-1" value="Посока и цели&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="180" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HoA-zwtDn_BUg8EGvlk8-2" value="Прогнози&amp;nbsp;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;за ресурси&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="270" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HoA-zwtDn_BUg8EGvlk8-7" value="Графици&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;за ресурси&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="180" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HoA-zwtDn_BUg8EGvlk8-8" value="&lt;div&gt;Планове за&lt;/div&gt;&lt;div&gt;&amp;nbsp;ресурси&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="270" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HoA-zwtDn_BUg8EGvlk8-10" value="Основни данни регистрирани&amp;nbsp;в информационен поток&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HoA-zwtDn_BUg8EGvlk8-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.902;entryY=1.083;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hU0FTpct08kERLUiqEbZ-17" target="hU0FTpct08kERLUiqEbZ-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="198" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HoA-zwtDn_BUg8EGvlk8-12" value="Обратна връзка за взетите стратегически решения" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="280" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HoA-zwtDn_BUg8EGvlk8-14" value="Цели за намаляване на разходите, подобряване на качеството и др" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="340" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HoA-zwtDn_BUg8EGvlk8-18" value="Вътрешни поръчки към доставчици" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="400" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HoA-zwtDn_BUg8EGvlk8-20" value="Придобиване на материали и услуги" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="510" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HoA-zwtDn_BUg8EGvlk8-23" value="Данните за движение на суровини и инвентар." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="317" y="420" width="116" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HoA-zwtDn_BUg8EGvlk8-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.417;entryY=1.113;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hU0FTpct08kERLUiqEbZ-8" target="hU0FTpct08kERLUiqEbZ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HoA-zwtDn_BUg8EGvlk8-25" value="Транспортиране и доставка" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="270" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HoA-zwtDn_BUg8EGvlk8-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.005;entryY=0.679;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hU0FTpct08kERLUiqEbZ-8" target="hU0FTpct08kERLUiqEbZ-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HoA-zwtDn_BUg8EGvlk8-27" value="&lt;div&gt;Данни за поръчки&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="345" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HoA-zwtDn_BUg8EGvlk8-29" value="&lt;div&gt;Данни за доставки&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HoA-zwtDn_BUg8EGvlk8-32" value="Движение на готови продукти" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="510" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HoA-zwtDn_BUg8EGvlk8-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.793;entryY=-0.079;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hU0FTpct08kERLUiqEbZ-17" target="hU0FTpct08kERLUiqEbZ-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HoA-zwtDn_BUg8EGvlk8-34" value="&lt;div&gt;Отчети&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="440" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
