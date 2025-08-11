@@ -66,13 +66,6 @@
         <mxCell id="hU0FTpct08kERLUiqEbZ-10" value="Procurement" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="480" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HoA-zwtDn_BUg8EGvlk8-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.667;entryY=1.002;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="hU0FTpct08kERLUiqEbZ-17" target="hU0FTpct08kERLUiqEbZ-4" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="450" y="240" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="HoA-zwtDn_BUg8EGvlk8-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hU0FTpct08kERLUiqEbZ-17" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="660" y="480" as="targetPoint" />
@@ -101,10 +94,10 @@
           <mxGeometry x="80" y="340" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HoA-zwtDn_BUg8EGvlk8-20" value="Materials" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="200" y="510" width="130" height="30" as="geometry" />
+          <mxGeometry x="190" y="510" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HoA-zwtDn_BUg8EGvlk8-23" value="Inventory" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="330" y="420" width="116" height="30" as="geometry" />
+          <mxGeometry x="310" y="420" width="116" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HoA-zwtDn_BUg8EGvlk8-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.417;entryY=1.113;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="hU0FTpct08kERLUiqEbZ-8" target="hU0FTpct08kERLUiqEbZ-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
