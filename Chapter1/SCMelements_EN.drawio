@@ -121,8 +121,8 @@
         <mxCell id="HoA-zwtDn_BUg8EGvlk8-32" value="Movement of finished products" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="480" y="510" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="n8gKTEWOLoxcFfo1IYt_-1" value="Costs, quality improvement" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="235" y="310" width="60" height="30" as="geometry" />
+        <mxCell id="n8gKTEWOLoxcFfo1IYt_-1" value="Quality Improvement" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="325" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
