@@ -1,0 +1,80 @@
+Scholar article title : Customizing Cloud-Native System for the Manufacturing Sector
+
+Abstract : 
+In the contemporary business environment, manufacturing enterprises face increasingly high demands for efficiency and adaptability. The adaptation of cloud services emerges as an approach for optimizing communication within organizational structures, maintaining relationships with business clients and partners, and fulfilling dynamically changing market expectations. The relevance of the studied topic is determined by the trend of cloud technologies becoming a strategic tool for future growth, modernization, and digital transformation within manufacturing enterprises. This trend is expected to continue as cloud platforms enable relatively rapid implementation of innovative ideas.
+
+Introduction : 
+In the context of the Fourth Industrial Revolution, characterized by the widespread application of digital technologies in manufacturing, several problems have arisen:
+-	the need for compatibility and interaction between various internal and external information systems,
+-	ensuring cybersecurity and reliable mechanisms for data exchange,
+-	the necessity for dependable storage and processing of large volumes of data,
+-	compliance with local regulations in global operations.
+
+The development of cloud services, particularly the introduction of models Infrastructure-as-a-Service (IaaS), Platform-as-a-Service (PaaS), and Software-as-a-Service (SaaS), opens new opportunities for the digitalization of business processes in the manufacturing sector. The application of these models eliminates the need for maintaining local computer infrastructure that is typical for on-premises services, while providing companies with the ability to implement software products tailored to their specific needs. The flexibility of these models allows enterprises to adapt to changing market conditions by facilitating quick decision-making based on real-time data and improving planning and forecasting capabilities.
+
+The purpose of this study is to analyze and design an integrated cloud-native architecture that unifies complex manufacturing business operations by configuring IaaS, PaaS, and SaaS components to enterprise-specific requirements. 
+A review of scholarly and industry sources indicates the absence of a defined conceptual model that holistically addresses manufacturing complexity via integrated cloud capabilities. Consequently, the subject of this research is a high-level conceptual model for a distributed manufacturing information system.
+
+Research methodology:
+Various research methods were used in the study’s methodological framework: systematic literature review of scholar articles and white papers, comparative analysis of leading platforms, web and mobile technologies, classification and typification to group manufacturing information systems and map them to business capabilities, modeling of the target cloud‑native architecture using graphical, schematic, and pictorial approaches.
+
+Main text of the paper : 
+
+HEADLINE 1 - Opportunities for customizing business processes by applying cloud technologies 
+
+Historically, manufacturing enterprises have relied on manual processes involving numerous participants across various departments and external partners. In the late 1990s, a range of business systems was introduced, including Enterprise Resource Planning (ERP), Customer Relationship Management (CRM), Manufacturing Execution Systems (MES), Supply Chain Management (SCM), Product Lifecycle Management (PLM), Enterprise Asset Management (EAM), Quality Management Systems (QMS), Advanced Planning and Scheduling (APS), and Supplier Relationship Management (SRM). However, these systems often function as standalone tools, limiting communication and information sharing among both internal and external stakeholders. This lack of integration hinders the efficient entry and processing of data and creates significant barriers to effective business process management.
+
+According to studies by various authors, ERP functions as the central hub, connecting strategic planning, procurement, operations, logistics, and product lifecycle. Corporate system, such as SAP S/4 Hana, forms the core of an interconnected model. Generally, SAP stands out as one of the leading solutions. As of April 2024, 86% of Fortune 500 companies and 92% of Forbes Global 2000 companies relied on SAP. More than 77% of global revenue transactions are processed through this system, which is used by over 400,000 organizations across 180 countries. SAP’s functionalities are divided into modules organized under three main categories: logistics, accounting, and human resources management.
+
+Additional subsystems that can complement SAP’s functionalities include Oracle NetSuite, JD Edwards EnterpriseOne, Microsoft Dynamics 365, and Infor CloudSuite. These systems manage the flow of goods, materials, information, and capital, helping to ensure effective and coordinated operations. Together, they contribute to an interconnected model aimed at developing a cohesive strategy for delivering finished products. (presented in Figure 1)
+
+(Figure 1. A model of the interconnection between the main components of the strategy for delivering finished products. Adapted from: Türkay et al., 2016; Vasilev & Stoyanova, 2019.)
+
+This interconnected model enhances quality and cost efficiency, which are essential for modern manufacturing environments. Organizations can improve forecasting, resource allocation, inventory management, coordination across procurement of materials, production operations, and logistics. 
+However, the interaction between these internal and external information subsystems requre resiliency, high availability, accessibility, scalability, and manageability.
+
+Building on top of the interconnected model, the next stage involves the customization of a cloud-native system. The aim of the cloud system is to function as a central integrator, connecting diverse subsystems such as ERP, CRM, MES, and SCM. This model ensures continuous data exchange. The transition from the traditional subsystems to customized cloud-native solutions highlights the sector’s shift toward the new phase of industrialization. In this regard, Figure 2 presents a model of a cloud-based system for managing manufacturing business operations in a specific company.
+
+(Figure 2. Model of a customized cloud-based system for manufacturing business management. 
+Adapted from: Verwijmeren, 2004; Caserio & Trucco, 2018; Shishmanov & Marinova-Kostova, 2024.)
+
+Based on the derived theoretical postulates, we can conclude that the need exists for a customized cloud system. Therefore, a conceptual model is considered that describes the software elements, interfaces, and suitable algorithms, as well as an architectural diagram of the software technologies.
+
+HEADLINE 2 - Architecture of a Cloud-Based Manufacturing Information System 
+
+In the second chapter, we examine the system’s core components, exploring their interrelationships and overall composition. The cloud system, configured according to the specific needs of a manufacturing enterprise, manages key business processes and activities by extracting and analyzing data in a real time. The implementation of a conceptual model proceeds through an iterative process involving two stages: defining the functional and non-functional requirements and performing a high-level concept review. 
+
+According to Vasilev, well-defined requirements are crucial for ensuring a project's success. By examining the theoretical foundations, terminology, and technologies, both functional and non-functional requirements can be established. The system’s functional requirements focus on enhancing business planning, control, management, data analytics, document workflows, user administration, and integration capabilities through application programming interfaces. These capabilities should be supported across web, desktop, and mobile applications, enabling direct use by business customers, partners, and stakeholders. Furthermore, the system could provide real-time data through Internet of Things (IoT) devices, ensuring timely and accurate information.
+
+Common non-functional requirements typically include ensuring continuous system operation with minimal downtime, providing scalable capacity by adding or adjusting resources to accommodate increased workloads, maintaining correct operation despite individual component failures, meeting responsiveness and latency targets under anticipated loads, and offering comprehensive insights into system health through metrics, logs, and traces.
+
+Based on the defined requirements and business operations, the conceptual model (Figure 3) encompasses client applications, cloud microservices, internal and external corporate subsystems.
+
+(Figure. 3. High-level conceptual model (author's development))
+
+The cloud-based system is composed of autonomous modules, each with distinct responsibilities. These modules aggregate and store data through a suite of microservices and NoSQL databases, which integrate with internal subsystems and external IoT devices. The services that support these modules adhere to the principles 
+and practices for IaaS, PaaS, and SaaS. IaaS resources provide virtual machines, private networks, and load balancers. The microservices and databases rely on PaaS, while SaaS supports the streaming, monitoring, and message broker backing services.
+
+A comparative analysis of web-based frameworks and programming languages shows that .NET Core is a suitable choice for building microservices. Further evaluation of key technological aspects reveals that Microsoft Azure has established itself as a leading cloud platform.
+
+The following table summarizes the technological tools selected for implementing the cloud system: 
+• ASP .NET Core for server-side logic and microservices.
+• Azure as the public cloud services provider. 
+• Azure SQL Database, Cosmos DB, and Blob Storage for databases. 
+• RabbitMQ as a message broker. 
+• Microsoft Blazor as the technology for the web portal. 
+• .NET MAUI for mobile application development
+
+(Figure. 4. AzureArchDiagr_EN.drawio)
+
+TODO: DDD code in 
+
+
+
+
+
+
+
+
+
+
