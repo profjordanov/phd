@@ -94,7 +94,7 @@
         <mxCell id="1HudzemWjimTBm2J36Nn-21" value="DB" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="513" y="350" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1HudzemWjimTBm2J36Nn-22" value="Checking whether both the order and delivery already exist in the tracking system. If they do, we skip processing to avoid duplication." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="1HudzemWjimTBm2J36Nn-22" value="&lt;i&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Checking whether both the order and delivery already exist in the tracking system. If they do, we skip processing to avoid duplication.&lt;/font&gt;&lt;/i&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="200" y="420" width="380" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1HudzemWjimTBm2J36Nn-23" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.005;entryY=0.63;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.005;exitY=0.109;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
@@ -108,7 +108,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1HudzemWjimTBm2J36Nn-25" value="Verifying if the order status is one of the following: &lt;br&gt;- InProgress - PartiallyDelivered &lt;br&gt;- PartiallyShipped - Shipped" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="1HudzemWjimTBm2J36Nn-25" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;i&gt;Verifying if the order status is one of the following: &lt;br&gt;- InProgress - PartiallyDelivered &lt;br&gt;- PartiallyShipped - Shipped&lt;/i&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="200" y="690" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1HudzemWjimTBm2J36Nn-26" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.005;entryY=0.63;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.005;exitY=0.109;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="1HudzemWjimTBm2J36Nn-28">
@@ -152,6 +152,12 @@
         </mxCell>
         <mxCell id="1HudzemWjimTBm2J36Nn-35" value="&amp;lt;foundation&amp;gt;&lt;br&gt;Identity API&lt;br&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=api" vertex="1" parent="1">
           <mxGeometry x="510" y="560" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="1HudzemWjimTBm2J36Nn-36" value="&lt;i&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;From the RabbitMQ message, we receive the OrgUnit ID. To retrieve the order, we first need to map the OrgUnit ID to its corresponding country.&amp;nbsp;&lt;/font&gt;&lt;/i&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="530" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1HudzemWjimTBm2J36Nn-37" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;i&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Using the country code, we can then retrieve the service account, which has access to the order.&lt;/font&gt;&lt;/i&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="600" width="300" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
