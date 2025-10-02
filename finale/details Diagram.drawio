@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.5">
   <diagram name="Page-1" id="JpLjQRSs1_Y3-2fLoofl">
-    <mxGraphModel dx="1603" dy="865" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2084" dy="1124" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -182,8 +182,8 @@
         <mxCell id="1HudzemWjimTBm2J36Nn-45" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="680" y="250" width="400" height="760" as="geometry" />
         </mxCell>
-        <mxCell id="1HudzemWjimTBm2J36Nn-46" value="&amp;lt;foundation&amp;gt;&lt;br&gt;Push Message Worker&lt;br&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=api" parent="1" vertex="1">
-          <mxGeometry x="970" y="700" width="50" height="48" as="geometry" />
+        <mxCell id="1HudzemWjimTBm2J36Nn-46" value="&amp;lt;foundation&amp;gt;&lt;br&gt;Push Message&lt;div&gt;Worker&lt;br&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=api" parent="1" vertex="1">
+          <mxGeometry x="995" y="832" width="50" height="48" as="geometry" />
         </mxCell>
         <mxCell id="1HudzemWjimTBm2J36Nn-47" value="&amp;lt;foundation&amp;gt;&lt;br&gt;Deliveries API&lt;br&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=api" parent="1" vertex="1">
           <mxGeometry x="995" y="410" width="50" height="48" as="geometry" />
@@ -263,6 +263,54 @@
         </mxCell>
         <mxCell id="FiQWJkBOZgS6-QnZBxlh-16" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;i&gt;Executes decision logic to prioritize deliveries. The selection is based on ETA or arrival time, or fallback rules.&lt;/i&gt;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="750" y="510" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FiQWJkBOZgS6-QnZBxlh-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.005;exitY=0.109;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="574.63" as="sourcePoint" />
+            <mxPoint x="740" y="575.08" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FiQWJkBOZgS6-QnZBxlh-20" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;i&gt;Determine the Notification Action: Start, Update, or End.&lt;/i&gt;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="750" y="560" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FiQWJkBOZgS6-QnZBxlh-21" value="&amp;lt;foundation&amp;gt;&lt;br&gt;Subscriptions API&lt;br&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=api" vertex="1" parent="1">
+          <mxGeometry x="1000" y="602" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="FiQWJkBOZgS6-QnZBxlh-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.005;entryY=0.63;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.005;exitY=0.109;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="633" as="sourcePoint" />
+            <mxPoint x="978" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FiQWJkBOZgS6-QnZBxlh-23" value="Gets Active User Subscriptions" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FiQWJkBOZgS6-QnZBxlh-22">
+          <mxGeometry x="0.0723" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FiQWJkBOZgS6-QnZBxlh-24" value="&amp;lt;foundation&amp;gt;&lt;br&gt;Identity API&lt;br&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=api" vertex="1" parent="1">
+          <mxGeometry x="1000" y="710" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="FiQWJkBOZgS6-QnZBxlh-25" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.005;entryY=0.63;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.005;exitY=0.109;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="743" as="sourcePoint" />
+            <mxPoint x="978" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FiQWJkBOZgS6-QnZBxlh-26" value="Gets Mobile Device Tokens By User&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FiQWJkBOZgS6-QnZBxlh-25">
+          <mxGeometry x="0.0723" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FiQWJkBOZgS6-QnZBxlh-28" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.005;entryY=0.63;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.005;exitY=0.109;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="857.5" as="sourcePoint" />
+            <mxPoint x="978" y="854.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FiQWJkBOZgS6-QnZBxlh-29" value="Send Live Update / Activity Notification" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FiQWJkBOZgS6-QnZBxlh-28">
+          <mxGeometry x="0.0723" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
