@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="bUwDgFJh5-zK0ynBWb4o-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="40" y="130" width="1150" height="890" as="geometry" />
+          <mxGeometry x="40" y="130" width="1090" height="890" as="geometry" />
         </mxCell>
         <mxCell id="bUwDgFJh5-zK0ynBWb4o-3" value="&amp;lt;data-platform&amp;gt;&lt;br&gt;Delivery Notification&lt;br&gt;Worker" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=api" parent="1" vertex="1">
           <mxGeometry x="90" y="890" width="50" height="48" as="geometry" />
