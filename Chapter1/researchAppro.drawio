@@ -37,8 +37,8 @@
         <mxCell id="hbd_fJvqN8gzrWT9-AZR-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="430" width="360" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hbd_fJvqN8gzrWT9-AZR-2" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;AI based web platform&lt;/b&gt;&lt;/span&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="435" y="445" width="150" height="30" as="geometry" />
+        <mxCell id="hbd_fJvqN8gzrWT9-AZR-2" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;Cloud-Native &amp;amp; AI-Driven Web Platform&lt;/b&gt;&lt;/span&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="385" y="445" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hbd_fJvqN8gzrWT9-AZR-3" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;Reference Theory&lt;/b&gt;&lt;/span&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="330" y="390" width="217.5" height="30" as="geometry" />
