@@ -1,0 +1,19 @@
+Letter of Recommendation for Dr. Yordan Ivanov Yordanov
+To the Selection Committee of the Heidelberg Laureate Forum,
+
+I am writing to recommend Dr. Yordan Ivanov Yordanov for participation in the Heidelberg Laureate Forum. I am Professor Pavel Petrov, Doctor of Science, in the Department of Informatics at the University of Economics - Varna. I served as Yordan’s scientific supervisor during his doctoral studies.
+
+Yordan’s research focused on the strategic role of cloud technologies in digital transformation, specifically on enabling real-time data exchange. His dissertation addressed challenges in modern manufacturing, including interoperability between internal and external systems, cybersecurity for reliable data exchange, and compliance requirements regarding large-scale data storage.
+
+To address these issues, Yordan designed a centralized cloud-native system using IaaS, PaaS, and SaaS models. His objectives included analyzing supply chain management (SCM) principles and ERP integration issues, defining cloud service models for complex business logic, and developing conceptual and communication models for the system. The resulting implementation improved order and delivery management, internal supply chain coordination, and the usability of mobile and web applications.
+
+Yordan deployed and tested this system at Heidelberg Materials in early 2024. His research impact is evident in his academic record, which includes seven publications with an h-index of 4, and 31 citations. Looking ahead, Yordan has outlined a roadmap for future development, including the integration of AI for predictive analytics and chatbots, support for digital payments and carbon footprint monitoring, and enhanced forecasting using machine learning.
+
+Dr. Yordanov is an independent researcher with theoretical knowledge and practical skills for solving real-world problems. His technical expertise, innovation, and dedication to advancing knowledge make him a valuable addition to the Heidelberg Laureate Forum. I am confident that he will contribute to the forum's discussions and collaborations.
+
+If you have any questions or need additional information, feel free to reach out to me.
+
+Sincerely yours,
+Professor Pavel Petrov, D.Sc.
+Department of Informatics,
+University of Economics - Varna

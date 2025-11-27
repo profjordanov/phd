@@ -1,0 +1,35 @@
+Assoc. Prof., PhD, Ivan Kuyumdzhiev
+Department of Informatics
+University of Economics - Varna
+ivan_ognyanov@ue-varna.bg
+November 27, 2025
+
+To the Selection Committee,
+Heidelberg Laureate Forum
+
+Re: Letter of Recommendation for Dr. Yordan Ivanov Yordanov
+
+I am writing this letter of recommendation for Dr. Yordan Ivanov Yordanov to support his application to the Heidelberg Laureate Forum. I have had the opportunity to evaluate Dr. Yordanov’s academic performance and research capabilities in my capacity as a Member of the Scientific Jury during his PhD defense at the University of Economics - Varna.
+
+Dr. Yordanov is a researcher whose work focuses on Informatics and Computer Science, specifically within the domain of Cloud Information Systems and Industry 4.0. His dissertation, "Cloud Information System for Managing Customer Orders in a Manufacturing Enterprise," is an example of interdisciplinary work, bridging theoretical computer science concepts with industrial application.
+
+I would like to highlight three key areas regarding Dr. Yordanov's work:
+
+1. Technical Sophistication and Architectural Design
+Dr. Yordanov possesses a strong understanding of modern software architecture. In his doctoral research, he architected a system utilizing Domain-Driven Design, Command Query Responsibility Segregation, and Event Sourcing. He demonstrated competence with cloud technologies (Azure, .NET) and microservices, applying the CAP theorem to address scalability issues. His ability to navigate the intersection of ERP systems (SAP) and modern cloud infrastructure is notable.
+
+2. Applied Research
+Dr. Yordanov implemented his research in a live production environment at “Heidelberg Materials” AG. He applied scientific methods: formulating and testing hypotheses, analyzing experimental data, and drawing conclusions to validate the system’s efficiency. This capacity to convert academic research into a functional product that addresses specific supply chain management challenges reflects professional maturity.
+
+3. Communication and Dedication to Education
+Beyond his research, Dr. Yordanov has consistently demonstrated a strong commitment to the academic community. For more than six years, he has taught several courses at the University of Economics - Varna, where he has proactively updated the curriculum to align with current technologies. His ability to clearly convey technical concepts, shown both in his dissertation defense and in his teaching, suggests he would be a valuable contributor to the dialogue at the Heidelberg Laureate Forum.
+
+Dr. Yordanov is an independent, analytical, and professional researcher. His work is original, methodologically precise, and relevant. I am confident that he will benefit from interacting with the laureates at the HLF and will contribute a perspective on the practical application of cloud computing in industrial sectors.
+
+I recommend Dr. Yordan Ivanov Yordanov for your consideration.
+
+Sincerely,
+
+Assoc. Prof., PhD, Ivan Kuyumdzhiev
+Department of Informatics
+University of Economics - Varna
