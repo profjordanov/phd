@@ -1,1 +1,301 @@
+Short answer: the file is mostly valid CSS, but I found a number of problems (some functional, some maintainability/accessibility) you should address. Below I list the issues I found, why they matter, and concrete suggestions + small fixes you can apply.
 
+Summary of main problems
+- Accessibility: focus outlines are removed globally (keyboard users will have no visible focus).
+- Fonts: the three @font-face declarations all use font-weight: 400 even though names imply different weights (medium / semibold).
+- Duplicate/duplicated rules: some rules are repeated (e.g. blockquote, button), which is unnecessary and error-prone.
+- Visual/debug leftovers: .popup_box { background: red } looks like a debugging style and will likely be wrong in production.
+- Contrast risk: body { color: #fff } sets white text globally while some backgrounds (e.g. modal background rgba(232,232,232,.86)) are light — this can cause unreadable text.
+- Minor maintainability: overly precise percentage decimals, many repeated box-sizing declarations and vendor prefixed properties could be simplified / automated with a build tool.
+- Small correctness/intent issues: some selectors and vendor usages are odd/old (e.g. -webkit-text-decoration-skip, repeated outline:0), and @font-face font-weight values seem incorrect for the named fonts.
+- No fatal syntax errors detected in the excerpt (missing semicolons at the end of the last property are allowed), but the file is long and the snippet is truncated; run a linter to be sure the whole file parses.
+
+Detailed findings and suggested fixes
+
+1) Accessibility — keyboard focus
+- What I see:
+  - Many selectors remove outlines: e.g. `button:focus { outline: 0 }`, `::-moz-focus-inner, :focus { outline: 0; border: 0 }`.
+- Why it's a problem:
+  - Removing focus indicators breaks keyboard navigation and accessibility.
+- Fix:
+  - Do not remove focus outlines globally. If you want a custom focus style, replace removal with a visible focus ring:
+    Example:
+    ```css
+    button:focus,
+    a:focus,
+    input:focus,
+    textarea:focus {
+      outline: none; /* optional to remove default */
+      box-shadow: 0 0 0 3px rgba(21,156,228,.4); /* visible focus ring */
+      border-radius: 4px;
+    }
+    ```
+
+2) @font-face weight mismatch
+- What I see:
+  - All three font-face blocks use `font-weight: 400` but are named ralewaymedium, ralewayregular, ralewaysemibold.
+- Why it's a problem:
+  - Browser font-weight matching will be wrong; semibold/medium fonts should use appropriate numeric weights (500/600 etc). This affects fallback and bolding behavior.
+- Fix:
+  - Set correct weights:
+    ```css
+    @font-face {
+      font-family: 'Raleway Regular';
+      src: url(...);
+      font-weight: 400;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: 'Raleway Medium';
+      src: url(...);
+      font-weight: 500;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: 'Raleway SemiBold';
+      src: url(...);
+      font-weight: 600;
+      font-style: normal;
+    }
+    ```
+  - Or at least use distinct font-family names aligned with weights, and use quotes around multi-word names.
+
+3) Duplicated rules
+- Examples:
+  - `blockquote { padding: 0; margin: 0 }` appears twice.
+  - `button { cursor: pointer; border: 0; background: 0 0; padding: 0 }` appears twice.
+- Why it's a problem:
+  - Redundancy increases file size and makes future edits error-prone (change in one spot but not the duplicate).
+- Fix:
+  - Consolidate duplicates into a single definition.
+
+4) Debugging leftover
+- What I see:
+  - `.popup_box { ... background: red }`
+- Why it's a problem:
+  - Likely accidental; visible bright red background in UI.
+- Fix:
+  - Remove or replace with intended background (transparent/white/variable).
+    Example:
+    ```css
+    .popup_box { background: #fff; color: #000; /* or use CSS variable */ }
+    ```
+
+5) Color contrast risk
+- What I see:
+  - `body { color: #fff }` combined with `.modal { background: rgba(232,232,232,.86) }`.
+- Why it's a problem:
+  - White text on a light grey modal means poor contrast; unreadable in some places.
+- Fix:
+  - Use contrasting text colors for light backgrounds (e.g. black / dark gray), or set modal text color explicitly:
+    ```css
+    .modal { color: #111; }
+    ```
+
+6) Old/obsolete vendor properties and small selector oddities
+- Examples:
+  - `-webkit-text-decoration-skip: objects` is older; newer property is `text-decoration-skip-ink`.
+  - Many `outline: 0` and `::-moz-focus-inner` manipulations — see accessibility above.
+  - `.fp-enabled body, html.fp-enabled` — this is intentional (covers cases where class is on a container or on html), but it looks confusing; consider making selector intent clearer:
+    - Option A: `.fp-enabled body, .fp-enabled html` if that matches usage,
+    - Or `html.fp-enabled, body.fp-enabled`.
+
+7) Maintainability / performance tips
+- Use variables for repeated values (colors, spacing) with CSS variables.
+- Use autoprefixer instead of hand-writing vendor prefixes.
+- Reduce extremely long decimal precision in percentage widths (33.333333333333336% → 33.3333% or 33.333%).
+- Run stylelint and an accessibility linter (axe, Lighthouse) on the site.
+
+8) Lint & QA recommendations (concrete)
+- Run stylelint with recommended rules to find duplicates/unused rules and formatting issues.
+- Run an automated a11y check (Lighthouse/axe) to catch keyboard and contrast issues.
+- Test the fonts after fixing font-weight to ensure correct font selection by the browser.
+- Consider minifying/combining for production (use your build tooling).
+
+Small concrete edits I recommend immediately
+- Remove duplicate blockquote/button blocks and keep only one.
+- Fix @font-face weights.
+- Replace `.popup_box { background: red }` with a neutral background or remove it.
+- Add visible focus styles instead of removing outlines.
+- Ensure modal text color contrasts with its background.
+
+Example patch snippets
+- Fix fonts and popup background:
+```css
+@font-face {
+  font-family: 'Raleway Regular';
+  src: url('../files/fonts/raleway-regular-webfont.woff2') format('woff2'),
+       url('../files/fonts/raleway-regular-webfont.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Raleway Medium';
+  src: url('../files/fonts/raleway-medium-webfont.woff2') format('woff2'),
+       url('../files/fonts/raleway-medium-webfont.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Raleway SemiBold';
+  src: url('../files/fonts/raleway-semibold-webfont.woff2') format('woff2'),
+       url('../files/fonts/raleway-semibold-webfont.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* Replace debugging red */
+.popup_box {
+  display: none;
+  position: relative;
+  margin: 150px auto;
+  background: #fff; /* or var(--popup-bg) */
+  color: #111;
+}
+```
+- Add accessible focus:
+```css
+:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(21,156,228,.35);
+  border-radius: 3px;
+}
+```
+
+Final notes
+- There are no syntax errors obvious in the provided excerpt; the biggest practical issues are accessibility (focus removal), font-weight mismatch, a likely debugging color, and duplicated rules/verbosity. Fix those first, then run stylelint and an a11y scan.
+- If you want, I can:
+  - produce a PR with the concrete fixes above,
+  - run a linter (if you provide CI output) or
+  - produce a trimmed/cleaned version of this CSS (deduplicated and modernized) for review.
+
+Which of those would you like me to do next?
+
+
+_____________________________________________________________
+
+
+Thanks — I reviewed Header.jsx and how it interacts with the styles in index.css. Below I list the concrete problems I found, why they matter, and recommended fixes / improvements (with minimal code snippets you can drop in).
+
+Summary of the main issues
+- CSS class name mismatch: Header.jsx adds document.body.classList.add('no-scroll') but index.css does not define .no-scroll. index.css uses selectors such as body.of-hidden and body.modal_show to control overflow/scrolling. Result: the class you add does nothing and you rely on manual style changes (style.overflow) rather than toggling a CSS class that the stylesheet controls.
+- aria-hidden logic is inverted/odd: nav has aria-hidden={!isMobileMenuOpen && undefined}. That yields undefined when menu is closed (attribute omitted) and false when menu is open — exactly the opposite of the intended semantics (should be true when closed, false when open).
+- Accessibility / focus management gaps: you focus the first menu item when the mobile menu opens and refocus the toggle on close — good — but there's no focus trap (tabbing can reach background elements), no skip link, and no aria-modal or role="dialog" for the menu region. Also aria-hidden needs fixing.
+- Hard-coded menu refs and static length: menuItemCallbacks uses a fixed length (3) and sets callback refs accordingly. That’s brittle if menu items change. It works now but could be made more robust.
+- Direct style manipulation for document.documentElement: the code sets document.documentElement.style.overflow = 'hidden' and clears it on close. Prefer toggling CSS classes (and cleaning up on unmount) for maintainability and to match your stylesheet.
+- Small logic readability/bug risk in scroll handling: the requestAnimationFrame + tickingRef approach is fine, but the nav class naming and threshold are hard-coded — consider comments or constants for clarity.
+
+Concrete recommended fixes
+
+1) Align the body/css approach
+Option A — use existing CSS class in index.css (recommended)
+- Change Header.jsx to add/remove the class index.css uses (for example "of-hidden" or "modal_show") instead of "no-scroll". That keeps all scrolling logic in CSS.
+
+Example change (replace your body-class toggling effect with):
+```js
+// useEffect that handles no-scroll
+useEffect(() => {
+  const className = 'of-hidden'; // or 'modal_show' — choose whichever matches your intent
+  if (isMobileMenuOpen) {
+    document.body.classList.add(className);
+    document.documentElement.classList.add(className); // index.css has html.of-hidden too
+  } else {
+    document.body.classList.remove(className);
+    document.documentElement.classList.remove(className);
+  }
+  return () => {
+    document.body.classList.remove(className);
+    document.documentElement.classList.remove(className);
+  };
+}, [isMobileMenuOpen]);
+```
+
+Option B — add a small .no-scroll rule to your CSS (if you prefer that name)
+```css
+/* in index.css */
+.no-scroll, html.no-scroll {
+  overflow: hidden;
+  position: relative;
+}
+```
+Then your current JS will match the stylesheet. Prefer Option A to avoid adding new names.
+
+2) Fix aria-hidden on the navigation
+Replace aria-hidden={!isMobileMenuOpen && undefined} with an explicit boolean or with React omission if you prefer.
+
+Recommended:
+```jsx
+<nav
+  id="main-navigation"
+  className="nav"
+  role="navigation"
+  aria-hidden={!isMobileMenuOpen} // true when menu closed, false when open
+>
+```
+This sets the right semantics: screen readers will ignore the nav when the mobile menu is closed.
+
+3) Improve keyboard/focus accessibility (recommended)
+- Add a focus trap when the mobile menu is open (so Tab/Shift+Tab stay inside the menu), or at minimum prevent tabbing to background interactive elements. You can implement a lightweight trap or use an established hook/library (focus-trap-react).
+- Mark the mobile menu as a dialog/region for assistive tech: e.g. role="menu" or role="dialog" with aria-modal="true" when open (choose according to your UX).
+- Announce open/closed with aria-expanded on the toggle (you already do that — good).
+
+Minimal example adding aria-modal & role on the nav when open:
+```jsx
+<nav
+  id="main-navigation"
+  className="nav"
+  role={isMobileMenuOpen ? 'dialog' : 'navigation'}
+  aria-modal={isMobileMenuOpen ? 'true' : undefined}
+  aria-hidden={!isMobileMenuOpen}
+>
+```
+For a robust solution, pair role/aria-modal with a focus trap.
+
+4) Improve ref handling for menu items (make it robust)
+Instead of a hard-coded Array.from({length: 3}), consider dynamically pushing refs or using a ref callback on the list mapping. Example with simple push-style callback:
+
+```js
+const menuItemsRef = useRef([]);
+
+const assignMenuItem = useCallback((el) => {
+  if (el) menuItemsRef.current.push(el);
+}, []);
+```
+If you render menu items via map(), use index-based assignment: el => menuItemsRef.current[index] = el.
+
+Also clear menuItemsRef.current before animating:
+```js
+const items = menuItemsRef.current.filter(Boolean);
+```
+(which you're already doing — just ensure you reset when the list changes).
+
+5) Minor: scroll logic and class naming
+- The isScrolledDown state name is OK, but semantically it represents "user is currently scrolling downward (past threshold)". Add a short comment or separate states if needed (e.g. isHeaderHidden). Consider renaming if class 'down-state' is in fact used to hide the header.
+- If you want smoother behavior, debounce or use a slightly larger threshold/hold before showing/hiding the header to avoid flicker on small scrolls.
+
+6) Clean up and async logout handling
+- If logout is async and may redirect, you might want to await logout() before closing the menu:
+```js
+const handleLogout = useCallback(async () => {
+  await logout();
+  closeMobileMenu();
+}, [logout, closeMobileMenu]);
+```
+If logout triggers redirect or page reload, closing the menu may be redundant; no harm to leave it.
+
+7) Ensure GSAP context scope is correct
+- You pass headerRef.current as scope — fine. Keep ctx.revert() on cleanup (you already have it).
+- Consider scoping animations to a menu container element to avoid accidentally animating non-menu elements.
+
+Short checklist you can apply now
+- [ ] Replace 'no-scroll' JS class with 'of-hidden' or add .no-scroll to CSS.
+- [ ] Replace aria-hidden expression with aria-hidden={!isMobileMenuOpen}.
+- [ ] Add focus trap while mobile menu open (use small library or custom).
+- [ ] Optionally await logout if async.
+- [ ] Make menu refs dynamic if the menu items change often.
+
+If you want, I can:
+- Prepare a small PR patch that implements the aria-hidden fix and the CSS-class rename (and a sample CSS rule for .no-scroll), or
+- Add a focus-trap implementation (minimal) and show the exact code changes to Header.jsx and a small CSS snippet.
+
+Which of those would you like me to produce next?
